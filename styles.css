@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+footer {
+	text-align: center;
+}
+
+nav {
+	padding: 2rem 8rem;
+}
+
+nav ul {
+	display: flex;
+	gap: 1rem;
+	list-style: none;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+.form {
+	padding: 4rem 2rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.form input {
+	padding: 1rem 2rem;
+}
+
+.form button {
+	padding: 1rem 2rem;
+	background-color: aquamarine;
+	cursor: pointer;
+}
+
+.form button:hover {
+	opacity: 80%;
+}
+
+.error {
+	color: red;
+	text-align: center;
+}
+
+.profile {
+	padding: 4rem 2rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
